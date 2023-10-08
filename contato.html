@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Easyfield</title>
+
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="../css/style_raw.css" />
+  <link rel="shortcut icon" href="../img/ef.png" />
+
+
+  <script>
+    document.documentElement.classList.add("js"); 
+  </script>
+</head>
+
+
+<body>
+  <header class="header drop-shadow-lg">
+    <div class="container">
+      <div class="nav-pc">
+        <a href="../index.html" class="grid-4 logo"><img id="ef" src="../img/ef.png" /></a>
+        <nav class="grid-12 navbar">
+          <ul>
+            <li id="sub" ><a href="contato.html">SUBSCRIBE</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-mb">
+        <nav>
+          <div class="navbar-h">
+            <div class="container nav-container">
+              <div>
+                <a href="home.html" class="grid-4 logo"><img src="../img/ef.png" /></a>
+              </div>
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+              <div class="menu-items ">
+                <a  href="contato.html">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+    </div>
+  </header>
+
+  <div class="img-contato">
+    <div class="container text-reveal">
+      <p class="get">Get personalized information by subscribing</p>
+    </div>
+  </div>
+
+
+  <div id="entrada" class="container contato">
+    <div class=" form-contato drop-shadow-lg">
+      <form 
+      action="https://formspree.io/f/mzblklba" 
+      method="POST">
+        <label>
+          Name:
+          <input type="name" name="name" class="rounded-md" required>
+        </label>
+        <label>
+           Phone number:
+          <input type="number" name="phone" class="rounded-md" required>
+        </label>
+        <label>
+          What is your plantation:
+         <input type="text" name="crop" class="rounded-md" required>
+       </label>
+       <label>
+        Place of residence:
+     <input type="text" name="local" class="rounded-md" required>
+   </label>
+        <label for="">Which areas interest you?</label> 
+        <div id="info">
+      <div class="check">
+       <input class="check" id="um" type="checkbox" id="rain" name="rain" value="rain" class="rounded-md" placeholder="Rainfall indices"  >
+       <label class="check" for="chuva">Rainfall indices</label></div>
+       <div class="check"><input  type="checkbox" id="fire" name="fire" value="fire" class="rounded-md"  placeholder="Fire risks" >
+       <label class="check" for="clima">Fire risks</label></div></p>
+
+      </div>
+
+        <button id="enviar" type="submit" class="rounded-md ">Enviar</button>
+
+
+      </form>
+    </div>
+
+    
+  </div>
+
+
+
+
+  <div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-contato grid-12">
+          <h2 class="foot">Easyfield:</h2>
+          <p class="foot">
+            Making the farmer's life easier
+          </p>
+        </div>
+        <div class="footer_redes grid-4">
+          <h2 class="t-social">Our partners:</h2>
+          <ul>
+            <li >
+              <a href="https://www.nasa.gov/"><img id="nasa" src="img/NASA-Logo-Large.png" alt="nasa" /></a>
+            </li>
+            <li >
+              
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
